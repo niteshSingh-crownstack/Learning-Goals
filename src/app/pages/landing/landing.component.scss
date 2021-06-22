@@ -1,0 +1,115 @@
+.top-section {
+  // border: 2px solid black;
+  background-color: var(--section1background);
+
+  .content {
+    // border: 2px solid black;
+    padding: 20%;
+    text-align: center;
+    color: var(--textcolor);
+    h6 {
+      font-size: 2rem;
+      margin: 2rem 0;
+    }
+
+    button {
+      background-color: var(--btnbackground);
+      border-radius: 5rem;
+      padding: 0.7rem 1rem;
+      border: none;
+      color: var(--btntextcolor);
+      margin: 1.4rem 0;
+    }
+  }
+}
+// =====================================================================
+.middle-section {
+  background: var(--section2background);
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 5rem;
+    color: var(--textcolor);
+
+    // border: 2px solid black;
+    .header {
+      text-align: center;
+      i {
+        font-size: 3rem;
+        filter: invert(0.7);
+      }
+      h6 {
+        margin: 1.4rem 0;
+        font-size: 1.5rem;
+      }
+    }
+    .main-content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+
+      // border: 2px solid black;
+    }
+    .sub-content {
+      width: 45%;
+      height: auto;
+      // border: 2px solid black;
+      button {
+        background-color: var(--btnbackground);
+        border-radius: 30px;
+        padding: 0.1rem 2rem;
+
+        border: none;
+        color: var(--btntextcolor);
+      }
+    }
+    .image-container {
+      width: 45%;
+      height: auto;
+      // border: 2px solid black;
+      .image {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+// =====================================================================
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--section1background);
+
+  // border: 2px solid black;
+  padding: 5rem;
+  color: var(--textcolor);
+  .header {
+    width: 50%;
+    text-align: center;
+  }
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 80px;
+    // border: 3px solid rgba(0, 0, 0, 0.8);
+    .content {
+      // border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px;
+      i {
+        color: var(--section3icons);
+        font-size: 2rem;
+      }
+      h6 {
+        line-height: 3rem;
+      }
+    }
+  }
+}

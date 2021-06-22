@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --test2: white;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+:export {
+  theme: "variables";
+}
+/*# sourceMappingURL=styles.css.map */

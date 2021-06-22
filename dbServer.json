@@ -1,0 +1,30 @@
+{
+  "allusers": [
+    {
+      "id": 1,
+      "email": "admin1@email.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user1@email.com",
+      "password": "user123",
+      "role": "user",
+      "posts": [
+        {
+          "title": "post1",
+          "content": "content1"
+        },
+        {
+          "title": "post1",
+          "content": "content1"
+        },
+        {
+          "title": "post1",
+          "content": "content1"
+        }
+      ]
+    }
+  ]
+}
