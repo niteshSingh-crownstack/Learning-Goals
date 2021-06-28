@@ -1,10 +1,11 @@
-.bottsratp-dark {
-  // ============used custom var==========
-  --moon: var(--clr-black);
-  --section1background: var(--clr-grey-10);
-  --section2background: var(--clrgreen-light);
-  --section3icons: var(--clr-green--light);
-  --textcolor: var(--clr-black);
-  --btnbackground: var(--clr-green-light);
-  --btntextcolor: var(--clr-white);
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+body[theme="bootstrap-dark"] {
+  --clr-green-light: #{$dark};
+  --moon: #{$light};
+  --section1background: #{$blue-900};
+  --section2background: #{$dark};
+  --section3icons: #{$light};
+  --textcolor: #{$light};
+  --btnbackground: #{$light};
+  --btntextcolor: #{$dark};
 }
