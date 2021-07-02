@@ -9,3 +9,13 @@ body[theme="bootstrap-dark"] {
   --btnbackground: #{$light};
   --btntextcolor: #{$dark};
 }
+body[theme="bootstrap-light"] {
+  --clr-green-light: #{$indigo-600};
+  --moon: #{$dark};
+  --section1background: #{$indigo-100};
+  --section2background: #{$light};
+  --section3icons: #{$indigo-600};
+  --textcolor: #{$dark};
+  --btnbackground: #{$indigo-600};
+  --btntextcolor: #{$light};
+}

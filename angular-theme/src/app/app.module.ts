@@ -11,6 +11,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent, MainLayoutComponent, HeaderComponent, FooterComponent, LandingComponent, SignInComponent],
@@ -19,6 +20,7 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

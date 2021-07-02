@@ -13,8 +13,10 @@ a {
   text-decoration: none;
   color: var(--clr-white);
 }
-.fa-moon {
-  color: var(--moon);
+.fa-palette {
+  // color: var(--moon);
+  color: white;
+  font-size: x-large;
 }
 // =============================================================================
 .list-wrapper {
@@ -41,4 +43,33 @@ a {
 .fa-old-republic {
   font-size: 40px;
   color: var(--clr-white);
+}
+// ======================================
+.theme-options {
+  position: relative;
+
+  ul {
+    position: absolute;
+    top: 50px;
+    right: -87%;
+    li {
+      display: block;
+
+      background: var(--clr-green-light);
+      padding: 10px;
+      color: white;
+      box-shadow: var(--light-shadow);
+      position: relative;
+      ul {
+        display: none;
+        position: absolute;
+        top: -1px;
+        left: 58px;
+      }
+
+      &:hover ul {
+        display: block;
+      }
+    }
+  }
 }

@@ -6,17 +6,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  isDark: boolean = false;
+  showThemeOptions: boolean = false;
   constructor() {}
 
   ngOnInit(): void {}
-  themeChange() {
+  themeChange(selectedTheme) {
     console.log('theme change worked');
-    this.isDark = !this.isDark;
-    if (this.isDark) {
-      document.querySelector('body').setAttribute('theme', 'bootstrap-dark');
-    } else {
-      document.querySelector('body').removeAttribute('theme');
-    }
+    document.querySelector('body').setAttribute('theme', selectedTheme);
+    this.showThemeOptions = false;
   }
 }

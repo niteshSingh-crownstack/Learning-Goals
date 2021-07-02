@@ -1,10 +1,19 @@
 body[theme="custom-dark"] {
   --clr-green-light: black;
   --moon: var(--clr-white);
-  --section1background: var(--clr-grey-1);
+  --section1background: var(--clr-dark-blue);
   --section2background: var(--clr-black);
   --section3icons: var(--clr-white);
   --textcolor: var(--clr-white);
   --btnbackground: var(--clr-white);
   --btntextcolor: var(--clr-black);
+}
+body[theme="custom-light"] {
+  --moon: var(--clr-black);
+  --section1background: var(--clr-grey-10);
+  --section2background: var(--clr-white);
+  --section3icons: var(--clr-green--light);
+  --textcolor: var(--clr-black);
+  --btnbackground: var(--clr-green-light);
+  --btntextcolor: var(--clr-white);
 }
