@@ -1,27 +1,48 @@
-# BlankApp
+# AngularTheme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8. This project is for demostrating the light and dark theme implementation of custom, bootstrap and material.
 
-## Development server
+## Custom Theme
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- ### Light
 
-## Code scaffolding
+* main
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <img src="./src/assets/images/custom-light.png"><br>
 
-## Build
+- ### Dark
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* main
 
-## Running unit tests
+  <img src="./src/assets/images/custom-dark.png"><br>
+  <hr>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Bootstarp Theme
 
-## Running end-to-end tests
+- ### Light
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* main
 
-## Further help
+  <img src="./src/assets/images/bootstrap-light.png"><br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- ### Dark
+
+* main
+
+  <img src="./src/assets/images/bootstrap-dark.png"><br>
+
+<hr>
+
+## Material Theme
+
+- ### Light
+
+* main
+
+  <img src="./src/assets/images/material-light.png"><br>
+
+- ### Dark
+
+* main
+
+  <img src="./src/assets/images/material-dark.png"><br>
