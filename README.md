@@ -1,4 +1,9 @@
-# BlankApp
+Custom Light Theme
+![alt text](custom-light.png)
+Custom Dark Theme
+![alt text](custom-dark.png)
+
+# Angular Theme
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
