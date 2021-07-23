@@ -1,0 +1,32 @@
+@import "~@angular/material/theming";
+
+$mat-dark-blue: (
+  50: #e3f2fd,
+  100: #031633,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+  ),
+);
+// ===============================================================================
+
+body[theme="material-dark"] {
+
+
+  --light:  #{mat-color(mat-palette($mat-grey, 900))};
+  --dark:  #{mat-color(mat-palette($mat-yellow, 100))};
+  --lime: #{mat-color(mat-palette($mat-orange, 100))};
+  --orangeRed: #{mat-color(mat-palette($mat-green, 50))};
+  --blue: #{mat-color(mat-palette($mat-indigo, 50))};
+
+}
+body[theme="material-light"] {
+  --clr-green-light: #{mat-color(mat-palette($mat-pink, 200))};
+  --moon: #{mat-color(mat-palette($mat-grey, 900))};
+  --section1background: #{mat-color(mat-palette($mat-blue, 50))};
+  --section2background: #{mat-color(mat-palette($mat-indigo, 50))};
+  --section3icons: #{mat-color(mat-palette($mat-pink, 200))};
+  --textcolor: #{mat-color(mat-palette($mat-grey, 900))};
+  --btnbackground: #{mat-color(mat-palette($mat-pink, 200))};
+  --btntextcolor: #{mat-color(mat-palette($mat-indigo, 50))};
+}
