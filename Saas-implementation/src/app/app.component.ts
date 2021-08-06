@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  showThemeOptions: boolean = false;
 
-  themeChange(selectedTheme) {
-    console.log('theme change worked');
-    document.querySelector('body').setAttribute('theme', selectedTheme);
-    this.showThemeOptions = false;
-  }
 }
